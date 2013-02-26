@@ -178,11 +178,11 @@ Authors:
     <mkdir dir="${build.dest}/META-INF"/>
     <mkdir dir="${build.dest}/META-INF/services"/>
 
-    <copy file="${src.dir}/org/apache/xerces/jaxp/javax.xml.parsers.DocumentBuilderFactory"
+    <!--copy file="${src.dir}/org/apache/xerces/jaxp/javax.xml.parsers.DocumentBuilderFactory"
       tofile="${build.dest}/META-INF/services/javax.xml.parsers.DocumentBuilderFactory"/>
 
     <copy file="${src.dir}/org/apache/xerces/jaxp/javax.xml.parsers.SAXParserFactory"
-      tofile="${build.dest}/META-INF/services/javax.xml.parsers.SAXParserFactory"/>
+      tofile="${build.dest}/META-INF/services/javax.xml.parsers.SAXParserFactory"/-->
   	
     <copy file="${src.dir}/org/apache/xerces/jaxp/datatype/javax.xml.datatype.DatatypeFactory"
       tofile="${build.dest}/META-INF/services/javax.xml.datatype.DatatypeFactory"/>
